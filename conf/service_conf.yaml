@@ -3,27 +3,36 @@ ragflow:
   http_port: 9380
 mysql:
   name: 'rag_flow'
-  user: 'root'
-  password: 'infini_rag_flow'
-  host: 'localhost'
-  port: 5455
+  user: 'zhaom'
+  password: '1qazWSX$2'
+  host: '172.18.102.230'
+  port: 3306
   max_connections: 100
   stale_timeout: 30
+#mysql:
+#  name: 'rag_flow'
+#  user: 'user_rag_flow_w'
+#  password: 'hbl8TCDEVkweqzwbhPbXwZ_S6'
+#  host: 'ld-business-3noh88z6v2.mysql.rds.aliyuncs.com'
+#  port: 3306
+#  max_connections: 100
+#  stale_timeout: 30
 minio:
   user: 'rag_flow'
   password: 'infini_rag_flow'
-  host: 'localhost:9000'
+  host: '172.16.61.140:9000'
 es:
-  hosts: 'http://localhost:1200'
+  hosts: 'https://es-cn-gh645kepj000ou38m.elasticsearch.aliyuncs.com:9200'
   username: 'elastic'
-  password: 'infini_rag_flow'
-infinity:
-  uri: 'localhost:23817'
-  db_name: 'default_db'
+  password: 'QccSearch@123'
+#infinity:
+#  uri: 'localhost:23817'
+#  db_name: 'default_db'
 redis:
-  db: 1
-  password: 'infini_rag_flow'
-  host: 'localhost:6379'
+  db: 97
+  password: 'UhFP3c5sL7G6jXk60uSdxjeD'
+  host: 'r-bp173f96wl5n5s4h14.redis.rds.aliyuncs.com:6379'
+
 
 # postgres:
 #   name: 'rag_flow'

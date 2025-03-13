@@ -60,6 +60,7 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 if __name__ == '__main__':
+    logging.getLogger("ragflow.es_conn").setLevel(logging.DEBUG)
     logging.info(r"""
         ____   ___    ______ ______ __               
        / __ \ /   |  / ____// ____// /____  _      __
